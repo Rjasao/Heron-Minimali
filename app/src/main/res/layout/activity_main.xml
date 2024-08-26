@@ -61,7 +61,7 @@
         android:id="@+id/comp_01"
         android:layout_width="110dp"
         android:layout_height="40dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="80dp"
         android:ems="10"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toStartOf="@+id/comp_02"
@@ -72,7 +72,7 @@
         android:id="@+id/comp_02"
         android:layout_width="110dp"
         android:layout_height="40dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="80dp"
         android:ems="10"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toStartOf="@+id/comp_03"
@@ -83,7 +83,7 @@
         android:id="@+id/comp_03"
         android:layout_width="110dp"
         android:layout_height="40dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="80dp"
         android:ems="10"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -227,8 +227,8 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Cáculo de área - Heron"
+        android:layout_marginTop="44dp"
+        android:text="Cálculo de área - Heron"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -255,5 +255,126 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/comp_13"
         app:layout_constraintTop_toBottomOf="@+id/comp_13" />
+
+    <TextView
+        android:id="@+id/texta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a"
+        app:layout_constraintBottom_toTopOf="@+id/comp_01"
+        app:layout_constraintStart_toStartOf="@+id/comp_01" />
+
+    <TextView
+        android:id="@+id/texta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a"
+        app:layout_constraintBottom_toTopOf="@+id/comp_04"
+        app:layout_constraintStart_toStartOf="@+id/comp_04" />
+
+    <TextView
+        android:id="@+id/texta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a"
+        app:layout_constraintBottom_toTopOf="@+id/comp_07"
+        app:layout_constraintStart_toStartOf="@+id/comp_07" />
+
+    <TextView
+        android:id="@+id/texta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a"
+        app:layout_constraintBottom_toTopOf="@+id/comp_10"
+        app:layout_constraintStart_toStartOf="@+id/comp_10" />
+
+    <TextView
+        android:id="@+id/texta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a"
+        app:layout_constraintBottom_toTopOf="@+id/comp_13"
+        app:layout_constraintStart_toStartOf="@+id/comp_13" />
+
+
+    <TextView
+        android:id="@+id/textb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b"
+        app:layout_constraintBottom_toTopOf="@+id/comp_02"
+        app:layout_constraintStart_toStartOf="@+id/comp_02" />
+
+    <TextView
+        android:id="@+id/textb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b"
+        app:layout_constraintBottom_toTopOf="@+id/comp_05"
+        app:layout_constraintStart_toStartOf="@+id/comp_05" />
+
+    <TextView
+        android:id="@+id/textb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b"
+        app:layout_constraintBottom_toTopOf="@+id/comp_08"
+        app:layout_constraintStart_toStartOf="@+id/comp_08" />
+
+    <TextView
+        android:id="@+id/textb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b"
+        app:layout_constraintBottom_toTopOf="@+id/comp_11"
+        app:layout_constraintStart_toStartOf="@+id/comp_11" />
+
+    <TextView
+        android:id="@+id/textb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b"
+        app:layout_constraintBottom_toTopOf="@+id/comp_14"
+        app:layout_constraintStart_toStartOf="@+id/comp_14" />
+
+    <TextView
+        android:id="@+id/textc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="c"
+        app:layout_constraintBottom_toTopOf="@+id/comp_03"
+        app:layout_constraintStart_toStartOf="@+id/comp_03" />
+
+    <TextView
+        android:id="@+id/textc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="c"
+        app:layout_constraintBottom_toTopOf="@+id/comp_06"
+        app:layout_constraintStart_toStartOf="@+id/comp_06" />
+
+    <TextView
+        android:id="@+id/textc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="c"
+        app:layout_constraintBottom_toTopOf="@+id/comp_09"
+        app:layout_constraintStart_toStartOf="@+id/comp_09" />
+
+    <TextView
+        android:id="@+id/textc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="c"
+        app:layout_constraintBottom_toTopOf="@+id/comp_12"
+        app:layout_constraintStart_toStartOf="@+id/comp_12" />
+
+    <TextView
+        android:id="@+id/textc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="c"
+        app:layout_constraintBottom_toTopOf="@+id/comp_15"
+        app:layout_constraintStart_toStartOf="@+id/comp_15" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
