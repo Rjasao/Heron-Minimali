@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
         comp15EditText = findViewById(R.id.comp_15);
 
         Button btnCalculator = findViewById(R.id.btnCalcular);
+        Button btnErase = findViewById(R.id.btnApagar);
+
         txtResultado = findViewById(R.id.txtResultado);
         textView1  = findViewById(R.id.textView1);
         textView2  = findViewById(R.id.textView2);
@@ -54,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
         textView5  = findViewById(R.id.textView5);
 
         btnCalculator.setOnClickListener(v -> calcularAreaTriangulo());
+
+        btnErase.setOnClickListener(v -> apagarAreaTriangulo());
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -64,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @SuppressLint({"DefaultLocale", "SetTextI18n"})
+
     private void calcularAreaTriangulo() {
 
         double area1 = 0.0;
@@ -187,5 +192,33 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
+    private void apagarAreaTriangulo(){
+
+        // Limpe os campos comp_01, comp_02 e comp_03
+        comp01EditText.setText("");
+        comp02EditText.setText("");
+        comp03EditText.setText("");
+        comp04EditText.setText("");
+        comp05EditText.setText("");
+        comp06EditText.setText("");
+        comp07EditText.setText("");
+        comp08EditText.setText("");
+        comp09EditText.setText("");
+        comp10EditText.setText("");
+        comp11EditText.setText("");
+        comp12EditText.setText("");
+        comp13EditText.setText("");
+        comp14EditText.setText("");
+        comp15EditText.setText("");
+        textView1.setText("Área :");
+        textView2.setText("Área :");
+        textView3.setText("Área :");
+        textView4.setText("Área :");
+        textView5.setText("Área :");
+        txtResultado.setText("Resultado:");
+    }
+
+
 
 }
